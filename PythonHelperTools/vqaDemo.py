@@ -6,7 +6,7 @@ import skimage.io as io
 import matplotlib.pyplot as plt
 import os
 
-dataDir		='../../VQA'
+dataDir		='/HDD-1_data/dataset/VQA-v2'
 versionType ='v2_' # this should be '' when using VQA v2.0 dataset
 taskType    ='OpenEnded' # 'OpenEnded' only for v2.0. 'OpenEnded' or 'MultipleChoice' for v1.0
 dataType    ='mscoco'  # 'mscoco' only for v1.0. 'mscoco' for real and 'abstract_v002' for abstract for v1.0.
